@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Hello from "./imgs/about.png";
+import Hello from "./imgs/hello.png";
 import { BsCheck2All } from "react-icons/bs";
 
 const About = () => {
