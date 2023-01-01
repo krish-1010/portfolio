@@ -6,10 +6,22 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
+
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 90) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
+  const closeMenu = () => setClick(false);
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
       <nav className="navbar">
         <div className="logo-block">
           <a href="/" className="logo">
@@ -28,6 +40,7 @@ const Navbar = () => {
         <ul className={click ? "nav__menu active" : "nav__menu"}>
           <li className="nav__item">
             <Link
+              onClick={closeMenu}
               className="pointer"
               activeClass="active"
               to="home"
@@ -38,16 +51,22 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav__item">
-            <Link className="pointer" to="about" spy={true} smooth={true}>
+            <Link
+              onClick={closeMenu}
+              className="pointer"
+              to="about"
+              spy={true}
+              smooth={true}
+            >
               About
             </Link>
           </li>
           <li className="nav__item">
-            <Link className="pointer" href="/">
+            <Link onClick={closeMenu} className="pointer" href="/">
               Projects
             </Link>
           </li>
-          <li className="nav__item">
+          <li onClick={closeMenu} className="nav__item">
             <Link className="pointer" href="/">
               Contact
             </Link>

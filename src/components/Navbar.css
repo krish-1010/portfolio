@@ -51,6 +51,10 @@
     cursor: pointer;
 }
 
+.header-bg{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
 .header .nav__item a:hover{
     color: #b161e7;
 }
