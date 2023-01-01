@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import logo from "./imgs/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
+import { Link } from "react-scroll";
+
 const Navbar = () => {
   const [click, setClick] = useState(false);
 
@@ -25,16 +27,30 @@ const Navbar = () => {
         </div>
         <ul className={click ? "nav__menu active" : "nav__menu"}>
           <li className="nav__item">
-            <a href="/">Home</a>
+            <Link
+              className="pointer"
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+            >
+              Home
+            </Link>
           </li>
           <li className="nav__item">
-            <a href="/">About</a>
+            <Link className="pointer" to="about" spy={true} smooth={true}>
+              About
+            </Link>
           </li>
           <li className="nav__item">
-            <a href="/">Projects</a>
+            <Link className="pointer" href="/">
+              Projects
+            </Link>
           </li>
           <li className="nav__item">
-            <a href="/">Contact</a>
+            <Link className="pointer" href="/">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

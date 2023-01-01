@@ -55,8 +55,22 @@
     color: #b161e7;
 }
 
+.nav__item{
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 .hamburger {
     display: none;
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 /* .button {

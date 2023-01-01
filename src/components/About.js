@@ -5,7 +5,7 @@ import { BsCheck2All } from "react-icons/bs";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="container">
         <img src={Hello} alt="hello" />
         <div className="col-2">
