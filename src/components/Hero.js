@@ -11,11 +11,12 @@ const Hero = () => {
         </p>
         <p>Self motivated, Enthusiastic, Passionate</p>
         {/* <p></p> */}
-        <button href="/" className="button">
-          <Link to="about" spy={true} smooth={true} offset={-90}>
+
+        <Link to="about" spy={true} smooth={true} offset={-90}>
+          <button href="/" className="button">
             More about me
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </div>
   );
