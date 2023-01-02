@@ -21,7 +21,7 @@ const Skills = () => {
           <span className="purple"> Skills</span>
         </h2>
         <div className="content">
-          <a href="#" className="skills-1">
+          <a href="javascript:;" className="skills-1">
             <div className="skill">
               <div className="img-elem">
                 <img src={python} alt="skill logo" className="skill-icon" />
@@ -29,7 +29,7 @@ const Skills = () => {
               <div className="text-elem">Python</div>
             </div>
           </a>
-          <a href="#" className="skills-2">
+          <a href="javascript:;" className="skills-2">
             <div className="skill">
               <div className="img-elem">
                 <img src={java} alt="skill logo" className="skill-icon" />
@@ -37,7 +37,7 @@ const Skills = () => {
               <div className="text-elem">Java</div>
             </div>
           </a>
-          <a href="#" className="skills-3">
+          <a href="javascript:;" className="skills-3">
             <div className="skill">
               <div className="img-elem">
                 <img src={htmlicon} alt="skill logo" className="skill-icon" />
@@ -45,7 +45,7 @@ const Skills = () => {
               <div className="text-elem">HTML</div>
             </div>
           </a>
-          <a href="#" className="skills-4">
+          <a href="javascript:;" className="skills-4">
             <div className="skill">
               <div className="img-elem">
                 <img src={css} alt="skill logo" className="skill-icon" />
@@ -53,7 +53,7 @@ const Skills = () => {
               <div className="text-elem">CSS</div>
             </div>
           </a>
-          <a href="#" className="skills-5">
+          <a href="javascript:;" className="skills-5">
             <div className="skill">
               <div className="img-elem">
                 <img src={javascript} alt="skill logo" className="skill-icon" />
@@ -61,7 +61,7 @@ const Skills = () => {
               <div className="text-elem">Javascript</div>
             </div>
           </a>
-          <a href="#" className="skills-1">
+          <a href="javascript:;" className="skills-1">
             <div className="skill">
               <div className="img-elem">
                 <img src={react} alt="skill logo" className="skill-icon" />
@@ -69,7 +69,7 @@ const Skills = () => {
               <div className="text-elem">React Js</div>
             </div>
           </a>
-          <a href="#" className="skills-2">
+          <a href="javascript:;" className="skills-2">
             <div className="skill">
               <div className="img-elem">
                 <img src={boot} alt="skill logo" className="skill-icon" />
@@ -77,7 +77,7 @@ const Skills = () => {
               <div className="text-elem">BootStrap</div>
             </div>
           </a>
-          <a href="#" className="skills-3">
+          <a href="javascript:;" className="skills-3">
             <div className="skill">
               <div className="img-elem">
                 <img src={node} alt="skill logo" className="skill-icon" />
@@ -85,7 +85,7 @@ const Skills = () => {
               <div className="text-elem">Node js</div>
             </div>
           </a>
-          <a href="#" className="skills-4">
+          <a href="javascript:;" className="skills-4">
             <div className="skill">
               <div className="img-elem">
                 <img src={vsc} alt="skill logo" className="skill-icon" />
@@ -93,7 +93,7 @@ const Skills = () => {
               <div className="text-elem">Vs code</div>
             </div>
           </a>
-          <a href="#" className="skills-5">
+          <a href="javascript:;" className="skills-5">
             <div className="skill">
               <div className="img-elem">
                 <img src={git} alt="skill logo" className="skill-icon" />
@@ -101,7 +101,7 @@ const Skills = () => {
               <div className="text-elem">Git</div>
             </div>
           </a>
-          <a href="#" className="skills-5">
+          <a href="javascript:;" className="skills-5">
             <div className="skill">
               <div className="img-elem">
                 <img src={mysql} alt="skill logo" className="skill-icon" />
@@ -109,7 +109,7 @@ const Skills = () => {
               <div className="text-elem">My SQL</div>
             </div>
           </a>
-          <a href="#" className="skills-5">
+          <a href="javascript:;" className="skills-5">
             <div className="skill">
               <div className="img-elem">
                 <img src={react} alt="skill logo" className="skill-icon" />
