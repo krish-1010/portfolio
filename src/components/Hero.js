@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import { Link, Button } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -11,7 +12,9 @@ const Hero = () => {
         <p>Self motivated, Enthusiastic, Passionate</p>
         {/* <p></p> */}
         <button href="/" className="button">
-          More about me
+          <Link to="about" spy={true} smooth={true} offset={-90}>
+            More about me
+          </Link>
         </button>
       </div>
     </div>

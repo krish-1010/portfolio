@@ -57,6 +57,11 @@
 
 .header .nav__item a:hover{
     color: #b161e7;
+    cursor: pointer;
+}
+
+.header .nav__item .active{
+    color: #b161e7;
 }
 
 .nav__item{
@@ -73,9 +78,6 @@
     display: none;
 }
 
-.pointer{
-    cursor: pointer;
-}
 
 /* .button {
     padding: 17px 28px;

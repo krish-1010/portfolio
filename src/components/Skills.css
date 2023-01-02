@@ -41,6 +41,10 @@
     color: #a540e8;
 }
 
+.skill:active{
+    transform: translateY(2px);
+}
+
 .skill-icon {
     margin-left: 2em;
     height: 40%;
