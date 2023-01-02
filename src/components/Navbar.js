@@ -24,10 +24,10 @@ const Navbar = () => {
     <div className={color ? "header header-bg" : "header"}>
       <nav className="navbar">
         <div className="logo-block">
-          <a href="/" className="logo">
+          <Link to="hero" spy={true} smooth={true} className="logo">
             <img src={logo} alt="logo" />
-          </a>
-          <p>KRISHNA</p>
+            <span className="logo-text">KRISHNA</span>
+          </Link>
         </div>
 
         <div className="hamburger" onClick={handleClick}>

@@ -22,6 +22,7 @@
 .header .navbar img{
     width: 50px;
     height: auto;
+    cursor: pointer;
 }
 
 .header .nav__menu a {
@@ -40,15 +41,18 @@
 .logo-block{
     display: flex;
     align-items: center;
+    position: relative;
 }
 
-.logo-block p {
+.logo-text {
+    position: absolute;
     font-size: 1.5rem;
     margin-left: 10px;
     font-weight: 400;
     color: #fff;
     letter-spacing: 3px;
     cursor: pointer;
+    top: 15px;
 }
 
 .header-bg{
@@ -128,5 +132,8 @@
 
     .header .navbar img {
         width: 70px;
+    }
+    .logo-text {
+        top: 25px;
     }
 }
