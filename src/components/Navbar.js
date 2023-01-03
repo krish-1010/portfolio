@@ -61,7 +61,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav__item">
-            <Link onClick={closeMenu} className="pointer">
+            <Link
+              onClick={closeMenu}
+              offset={-90}
+              to="projects"
+              spy={true}
+              smooth={true}
+            >
               Projects
             </Link>
           </li>
