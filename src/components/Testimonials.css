@@ -3,7 +3,7 @@
     color: #fff;
     width: 100%;
     /* height: 100vh; */
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -28,40 +28,50 @@
     text-align: center;
     max-width: 100vw;
     width: 100%;
+    padding-bottom: 2rem;
     /* overflow: initial; */
+}
+
+.title{
+    margin-top: 5px;
+}
+
+.title-2{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    
+}
+
+.year{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
     
 }
 
 
-  .slick-dots li button:before{
+.slick-dots li button:before{
     color: rgba(255, 255, 255, 0.696);
     opacity: 1;
     font-size: 12px;
-  }
-  .slick-dots li.slick-active button:before{
+}
+
+.slick-dots li.slick-active button:before{
     color:#9c31e4;
-   
     opacity: 1;
-  }
+}
+
+.slick-dots{
+    bottom: -50px;
+}
 
 .Testimonials .container img {
     margin: auto;
     width: 100px;
     border: 6px solid rgba(255, 255, 255, 0.15);
-    border-radius: 50%;
-    
+    border-radius: 50%; 
 }
-
-
-
-/* .testimonial {
-    max-width: 980px;
-} */
-
-
-/* .quote:before{
-    content: open-quote;
-} */
 
 @media screen and (max-width: 1024px) {
     .Testimonials:before {

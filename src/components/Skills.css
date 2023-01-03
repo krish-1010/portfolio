@@ -4,7 +4,7 @@
 }
 
 .skills .container{
-    max-width: 1050px;
+    max-width: 1140px;
     margin: 4rem auto;
     padding: 4rem 0rem;
 }
@@ -25,10 +25,11 @@
 
 .skill {
     width: 14em;
+    transition: 0.3s ease-in-out;
     /* min-width: 5em; */
     height: 4em;
     border-radius: 5px;
-    color: #82699A;
+    color: #413e41;
     background-color: white;
     display: flex;
     align-items:center;    
@@ -42,6 +43,7 @@
 }
 
 .skill:active{
+    transition: none;
     transform: translateY(2px);
 }
 

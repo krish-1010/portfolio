@@ -23,17 +23,19 @@ const Testimonials = () => {
         <Slider {...settings}>
           <div className="testimonial one">
             <img src={alp} alt="logo" />
-            <h3>Alpha Matriculation Higher secondary school</h3>
-            <h4>school</h4>
-            <h4>2009-2019</h4>
+            <h3 className="title">
+              Alpha Matriculation Higher secondary school
+            </h3>
+            <h4 className="title-2">school</h4>
+            <h4 className="year">2009-2019</h4>
             <p className="quote">Seek share serve</p>
           </div>
 
           <div className="testimonial two">
             <img src={loyola} alt="logo" />
-            <h3>Loyola college</h3>
-            <h4>college</h4>
-            <h4>2020-present</h4>
+            <h3 className="title">Loyola college</h3>
+            <h4 className="title-2">college</h4>
+            <h4 className="year">2020-present</h4>
             <p className="quote">"Let Your Light Shine"</p>
           </div>
         </Slider>
