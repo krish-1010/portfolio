@@ -1,10 +1,10 @@
 import React from "react";
-import "./Testimonials.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import alp from "./imgs/alp.png";
 import loyola from "./imgs/loyolaLogo.png";
+import "./Testimonials.css";
 
 const Testimonials = () => {
   var settings = {
@@ -15,8 +15,7 @@ const Testimonials = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    nextArrow: <div />,
-    prevArrow: <div />,
+    arrows: false,
   };
   return (
     <div className="Testimonials">
