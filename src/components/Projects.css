@@ -57,7 +57,7 @@
     max-width: 33.333333%;
 } */
 
-.box{
+.row .box{
     transition: all ease-in-out 0.3s;
     max-width: 400px;
     /* background-color: aliceblue; */
@@ -91,7 +91,7 @@
         width: 90%;
     }
 
-    .box{
+    .row .box{
         max-width: 100%;
     }
 }

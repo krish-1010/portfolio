@@ -50,6 +50,13 @@
     
 }
 
+.testimonial:active{
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
 
 .slick-dots li button:before{
     color: rgba(255, 255, 255, 0.696);

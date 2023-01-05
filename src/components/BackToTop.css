@@ -1,0 +1,26 @@
+.btt{
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    transition: all 1s ease-in;
+}
+
+.btt.active{
+    display: inline;
+    transition: all 1s ease-in;
+}
+
+.btt-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #9c31e4;
+    color: #fff;
+    transition: all 1s ease-in-out;
+}

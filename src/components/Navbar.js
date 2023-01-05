@@ -9,6 +9,7 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
 
   const [color, setColor] = useState(false);
+
   const changeColor = () => {
     if (window.scrollY >= 90) {
       setColor(true);
@@ -72,7 +73,15 @@ const Navbar = () => {
             </Link>
           </li>
           <li onClick={closeMenu} className="nav__item">
-            <Link className="pointer">Contact</Link>
+            <Link
+              onClick={closeMenu}
+              offset={-90}
+              to="contact"
+              spy={true}
+              smooth={true}
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

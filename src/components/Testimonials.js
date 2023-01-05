@@ -16,6 +16,7 @@ const Testimonials = () => {
     autoplay: true,
     autoplaySpeed: 4500,
     arrows: false,
+    pauseOnHover: false,
   };
   return (
     <div className="Testimonials">
@@ -26,7 +27,7 @@ const Testimonials = () => {
             <h3 className="title">
               Alpha Matriculation Higher secondary school
             </h3>
-            <h4 className="title-2">school</h4>
+            <h4 className="title-2">School</h4>
             <h4 className="year">2009-2019</h4>
             <p className="quote">Seek share serve</p>
           </div>
@@ -34,7 +35,7 @@ const Testimonials = () => {
           <div className="testimonial two">
             <img src={loyola} alt="logo" />
             <h3 className="title">Loyola college</h3>
-            <h4 className="title-2">college</h4>
+            <h4 className="title-2">College</h4>
             <h4 className="year">2020-present</h4>
             <p className="quote">"Let Your Light Shine"</p>
           </div>

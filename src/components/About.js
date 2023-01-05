@@ -21,7 +21,7 @@ const About = () => {
                 fill="#b161e7"
                 size="1.2em"
               />
-              I am a Self taught programmer, intrestred in various technologies,
+              I am a Self taught programmer, interested in various technologies,
               currently pursuing B.Sc. Physics.
             </li>
             <li>
