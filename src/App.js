@@ -8,6 +8,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
+import Experience from "./components/Experience";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -20,6 +22,11 @@ function App() {
       <Tesimonials />
 
       <Projects />
+
+      {/* <Experience /> */}
+
+      <Gallery />
+
       <Contact />
 
       <Footer />

@@ -33,13 +33,14 @@
 }
 
 .title{
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 .title-2{
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 14px;
     
 }
 
@@ -76,7 +77,7 @@
 .Testimonials .container img {
     margin: auto;
     width: 100px;
-    border: 6px solid rgba(255, 255, 255, 0.15);
+    border: 7px solid rgba(255, 255, 255, 0.15);
     border-radius: 50%; 
 }
 

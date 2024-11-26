@@ -1,0 +1,107 @@
+.gallery{
+    width: 100%;
+}
+
+.gallery .container{
+    margin: auto;
+    /* max-width: 1140px; */
+    width: 100%;
+    text-align: center;
+    padding: 3rem 7px;
+}
+
+.gallery .container h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    margin-bottom: 30px;
+}
+
+.gallery .container h2 .purple{
+    color: #9c31e4;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 3px; /* space between items */
+}
+
+.gallery-item {
+    width: 100%;
+    overflow: hidden; /* Ensures no part of the image spills over the container */
+    position: relative; /* Needed for absolute positioning of images */
+    padding-top: 100%; /* Aspect ratio 1:1 */
+    cursor: pointer;
+}
+
+/* .gallery-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    transition: all 0.8s ease;
+}
+
+.gallery-item img:hover {
+   scale: 1.1;
+} */
+
+.gallery-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    transition: all 0.7s ease; /* Smooth transition for all properties */
+}
+
+.gallery-item:hover img {
+    transform: translate(-50%, -50%) scale(1.1); /* Maintain centering while scaling */
+}
+
+
+.more{
+    color: #aaaaaa;
+    font-size: 15px;
+}
+
+
+.desc{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #6c665c;
+}
+
+.lightpurple{
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #bf88ff;
+    /* margin-bottom: 56px; */
+}
+
+
+
+
+
+
+@media screen and (max-width:940px){
+    .grid{
+        grid-template-columns: 1fr;
+       
+    }
+}

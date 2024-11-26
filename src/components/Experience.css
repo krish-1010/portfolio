@@ -1,0 +1,41 @@
+.experience {
+    background: #fff;
+    padding: 20px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    cursor: pointer;
+    color: #555;
+}
+
+.nav-link.active {
+    color: #007bff;
+}
+
+.tab-content {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
