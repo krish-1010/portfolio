@@ -21,8 +21,9 @@ const About = () => {
                 fill="#b161e7"
                 size="1.2em"
               />
-              I am a Self taught programmer, interested in various technologies,
-              currently pursuing B.Sc. Physics.
+              <b>Self-Taught Programmer</b> - Java and Next.js developer with
+              expertise in web development and a strong foundation in computer
+              applications.
             </li>
             <li>
               <BsCheck2All
@@ -30,7 +31,8 @@ const About = () => {
                 fill="#b161e7"
                 size="1.2em"
               />
-              Freelance Teacher - Programming
+              <b>Technical Leader</b> - Frequently taking up roles such as
+              Technical Head, driving impactful projects and mentoring others.
             </li>
             <li>
               <BsCheck2All
@@ -38,7 +40,8 @@ const About = () => {
                 fill="#b161e7"
                 size="1.2em"
               />
-              Gaming Enthusiast
+              <b>Freelance Educator</b> - Actively involved in educational
+              discussions, inspiring learners in programming and technology.
             </li>
           </ul>
         </div>

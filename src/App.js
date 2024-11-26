@@ -15,10 +15,13 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+
       <Skill />
       <Tesimonials />
+
       <Projects />
       <Contact />
+
       <Footer />
       <BackToTop />
     </div>

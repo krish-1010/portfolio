@@ -9,7 +9,7 @@ const Hero = () => {
         <p>
           <span className="purple">Krishna</span> M
         </p>
-        <p>Self motivated, Enthusiastic, Passionate</p>
+        <p>Strategic, Adaptive, Solution-Focused</p>
 
         <Link to="about" spy={true} smooth={true} offset={-90}>
           <button href="/" className="button">
