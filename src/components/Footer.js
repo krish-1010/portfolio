@@ -3,6 +3,7 @@ import "./Footer.css";
 import { FaSteam } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -40,6 +41,31 @@ const Footer = () => {
             </i>
           </a>
         </div>
+        <nav>
+          {/* Other nav items */}
+          <ul>
+            <li>
+              <Link to="/terms-and-conditions">Terms & Conditions</Link>
+            </li>
+            <li>
+              <Link to="/cancellation-refund">Cancellation & Refund</Link>
+            </li>
+            <li>
+              <Link to="/shipping-delivery">Shipping & Delivery</Link>
+            </li>
+            <li>
+              <Link to="/privacy-policy">Privacy Policy</Link>
+            </li>
+            <li>
+              <Link to="/contact-us">Contact Us</Link>
+            </li>
+          </ul>
+          {/* <Link to="/terms-and-conditions">Terms & Conditions</Link>
+          <Link to="/cancellation-refund">Cancellation & Refund</Link>
+          <Link to="/shipping-delivery">Shipping & Delivery</Link>
+          <Link to="/privacy-policy">Privacy Policy</Link>
+          <Link to="/contact-us">Contact Us</Link> */}
+        </nav>
       </div>
     </div>
   );

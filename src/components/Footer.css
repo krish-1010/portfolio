@@ -55,3 +55,34 @@
 .footer .icon-bg:hover  {
     background-color: #9c31e4;
 }
+
+
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footer a:visited{
+    text-decoration: none;
+    color: #afd8ee;
+}
+
+.footer a:hover{
+    color: #9c31e4;
+}
+
+.footer nav ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* .footer nav li{
+list-style: none;
+   margin: 2px;
+} */
