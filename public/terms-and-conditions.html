@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms and Conditions</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <style>
+      body {
+        padding: 1rem;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        min-height: 69vh;
+      }
+
+      .header {
+        position: fixed;
+        height: 90px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: rgba(0, 0, 0, 0.9);
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1240px;
+        margin: auto;
+        height: 100%;
+        padding: 0 1rem;
+      }
+
+      .logo-block {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo-text {
+        margin-left: 10px;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 3px;
+      }
+
+      .nav__menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav__item {
+        padding: 1rem;
+        font-weight: 500;
+      }
+
+      .nav__menu a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .nav__menu a:hover {
+        color: #b161e7;
+      }
+
+      .hamburger {
+        display: none;
+        cursor: pointer;
+        color: #fff;
+        font-size: 30px;
+      }
+
+      @media screen and (max-width: 940px) {
+        .hamburger {
+          display: block;
+        }
+
+        .nav__menu {
+          display: none;
+          position: fixed;
+          flex-direction: column;
+          width: 100%;
+          top: 90px;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.9);
+          padding-top: 20px;
+          z-index: 999;
+        }
+
+        .nav__menu.active {
+          display: flex;
+        }
+      }
+
+      .footer {
+        background: #2f2d35;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        padding: 30px 0;
+      }
+
+      .footer .container {
+        max-width: 1140px;
+        margin: auto;
+      }
+
+      .footer h3 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #9c31e4;
+        margin-bottom: 15px;
+      }
+
+      .footer p {
+        font-style: italic;
+        margin: 0 0 30px 0;
+      }
+
+      .footer .my-links {
+        margin-bottom: 20px;
+      }
+
+      .footer .icon-bg {
+        font-size: 18px;
+        display: inline-block;
+        background: #3e3b46;
+        color: #fff;
+        line-height: 1;
+        padding: 8px;
+        margin-right: 4px;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+      }
+
+      .footer .icon-bg:hover {
+        background-color: #9c31e4;
+      }
+
+      .footer a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .footer a:visited {
+        text-decoration: none;
+        color: #afd8ee;
+      }
+
+      .footer a:hover {
+        color: #9c31e4;
+      }
+
+      .footer nav ul {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo-block">
+          <img
+            src="logo.png"
+            alt="logo"
+            style="width: 40px; height: 40px; display: inline"
+          />
+          <span class="logo-text">KRISHNA</span>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav__menu">
+          <div class="nav__item"><a href="/">Home</a></div>
+          <div class="nav__item"><a href="/">About</a></div>
+          <div class="nav__item"><a href="/">Projects</a></div>
+          <div class="nav__item"><a href="/">Contact</a></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Terms and Conditions</h1>
+      <p><strong>Effective Date:</strong> December 31, 2024</p>
+      <p>
+        Welcome to <strong>mkrishna.tech</strong> (“Website,” “we,” “us,” or
+        “our”). By accessing or using this Website, you agree to be bound by the
+        following terms and conditions (“Terms”). If you do not agree with any
+        part of these Terms, please discontinue use of our Website.
+      </p>
+
+      <h2>1. Eligibility and Acceptance of Terms</h2>
+      <ul>
+        <li>
+          Our services are accessible to learners of all ages. However, if you
+          are under the age of 18 (or the age of majority in your jurisdiction),
+          please ensure that you have a parent or guardian's permission before
+          providing any personal information or registering for services.
+        </li>
+        <li>
+          Your continued use of our Website indicates your acceptance of these
+          Terms.
+        </li>
+      </ul>
+
+      <h2>2. Description of Services</h2>
+      <p>
+        We provide <strong>online classes</strong>,
+        <strong>technical consulting</strong>, and
+        <strong>software development services</strong>. All services are
+        provided digitally (no physical goods are shipped).
+      </p>
+
+      <h2>3. Contact Information</h2>
+      <p>
+        For any questions regarding these Terms, please contact us at:<br />
+        <strong>Email:</strong>
+        <a href="mailto:krishna@mkrishna.tech">krishna@mkrishna.tech</a><br />
+        <strong>Address:</strong> We operate entirely online as a remote-based
+        service provider and do not maintain a fixed physical office location.
+        For any official correspondence or legal notices, please contact us via
+        email at
+        <a href="mailto:krishna@mkrishna.tech">krishna@mkrishna.tech</a>. If a
+        physical address is required for specific legal or regulatory reasons,
+        please reach out to us at the same email address, and we will provide
+        the appropriate mailing address as necessary.
+      </p>
+
+      <h2>4. Rules of Conduct and User Restrictions</h2>
+      <ul>
+        <li>
+          You agree to use our Website and services for lawful purposes only.
+        </li>
+        <li>You must not upload or transmit any malicious code or viruses.</li>
+        <li>
+          You must not engage in activities that disrupt or interfere with the
+          Website's functionality or security.
+        </li>
+        <li>
+          You must not attempt unauthorized access to any part of the Website or
+          related systems.
+        </li>
+      </ul>
+
+      <h2>5. Limitation of Liability and Disclaimer of Warranties</h2>
+      <ul>
+        <li>
+          <strong>Disclaimer of Warranties:</strong> Our services are provided
+          on an “as is” and “as available” basis, without any express or implied
+          warranties, including but not limited to warranties of merchantability
+          or fitness for a particular purpose.
+        </li>
+        <li>
+          <strong>Limitation of Liability:</strong> Under no circumstances shall
+          we be liable for any direct, indirect, incidental, consequential, or
+          special damages arising out of or related to your use of, or inability
+          to use, our Website or services.
+        </li>
+      </ul>
+
+      <h2>6. Intellectual Property</h2>
+      <p>
+        Unless otherwise stated, all original content on this Website (e.g.,
+        text, custom graphics, and branding) is the property of mkrishna.tech
+        and is protected by applicable intellectual property laws. We use
+        third-party frameworks, libraries (e.g., React, React Icons), and other
+        open-source tools under their respective licenses. We do not claim
+        ownership over such third-party content or open-source libraries. You
+        may not reproduce or distribute any original content from this Website
+        without our explicit written permission.
+      </p>
+
+      <h2>7. Governing Law and Dispute Resolution</h2>
+      <p>
+        These Terms shall be governed by and construed in accordance with the
+        laws of India. Any disputes arising under these Terms shall be subject
+        to the exclusive jurisdiction of the courts located in India.
+      </p>
+
+      <h2>8. Changes to Terms</h2>
+      <p>
+        We reserve the right to modify these Terms at any time. We will notify
+        you of any significant changes by posting a notice on our Website. Your
+        continued use after modifications indicates acceptance of the revised
+        Terms.
+      </p>
+    </main>
+
+    <footer>
+      <div class="footer" id="footer">
+        <div class="container">
+          <h3>KRISHNA</h3>
+          <p>Connect with me</p>
+          <div class="my-links">
+            <a
+              href="https://www.linkedin.com/in/krishna-m10/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="icon-bg">
+                <i class="fab fa-linkedin-in"></i>
+              </span>
+            </a>
+            <a
+              href="https://steamcommunity.com/id/krishna10"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="icon-bg">
+                <i class="fab fa-steam"></i>
+              </span>
+            </a>
+            <a
+              href="https://www.instagram.com/_.krypt1c._/?theme=dark"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="icon-bg">
+                <i class="fab fa-instagram"></i>
+              </span>
+            </a>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="/terms-and-conditions.html">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="/cancellation-refund.html">Cancellation & Refund</a>
+              </li>
+              <li><a href="/shipping-delivery.html">Shipping & Delivery</a></li>
+              <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="/contact-us.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector(".nav__menu");
+        menu.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
