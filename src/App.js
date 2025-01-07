@@ -90,8 +90,8 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/contact-us" element={<ContactUsPage />} />
         </Routes>
-        <Footer />
         <BackToTop />
+        <Footer />
       </div>
     </Router>
   );

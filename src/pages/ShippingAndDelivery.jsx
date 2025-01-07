@@ -4,11 +4,11 @@ function ShippingAndDelivery() {
   return (
     <div
       style={{
-        background: "black",
-        color: "white",
+        // background: "black",
+        // color: "white",
         padding: "1rem",
         marginTop: "5rem",
-        height: "70vh",
+        minHeight: "70vh",
       }}
     >
       <h1>Shipping and Delivery Policy</h1>

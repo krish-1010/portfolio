@@ -6,10 +6,11 @@ function CancellationRefund() {
       style={{
         // background: "black",
         // color: "white",
+
         marginBottom: "50px",
         padding: "1rem",
         marginTop: "5.5rem",
-        height: "70vh",
+        minHeight: "70vh",
       }}
     >
       <h1>Cancellation and Refund Policy</h1>

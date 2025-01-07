@@ -13,7 +13,7 @@ const ContactUsPage = () => {
         marginBottom: "50px",
         padding: "1rem",
         marginTop: "5rem",
-        height: "70vh",
+        minHeight: "70vh",
       }}
     >
       <div className="container">

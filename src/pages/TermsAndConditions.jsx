@@ -10,7 +10,7 @@ function TermsAndConditions() {
         padding: "1rem",
         marginTop: "90px",
         marginBottom: "50px",
-        height: "69vh",
+        minHeight: "69vh",
       }}
     >
       <h1>Terms and Conditions</h1>

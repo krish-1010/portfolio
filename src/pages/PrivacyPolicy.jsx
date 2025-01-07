@@ -9,7 +9,7 @@ function PrivacyPolicy() {
         // marginBottom: "50px",
         padding: "1rem",
         marginTop: "5rem",
-        height: "70vh",
+        minHeight: "70vh",
       }}
     >
       <h1>Privacy Policy</h1>
