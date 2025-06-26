@@ -11,6 +11,11 @@ import boot from "./imgs/bootstrap.png";
 import react from "./imgs/atom.png";
 import mysql from "./imgs/mysql.png";
 import vsc from "./imgs/vsc.png";
+import mongo from "./imgs/MongoDB.png";
+import express from "./imgs/Express.png";
+import nextjs from "./imgs/nextjs.png";
+import cpp from "./imgs/cpp.png";
+import springboot from "./imgs/springboot.png";
 
 const Skills = () => {
   return (
@@ -112,15 +117,15 @@ const Skills = () => {
           <a href="#/" className="skills-5">
             <div className="skill">
               <div className="img-elem">
-                <img src={react} alt="skill logo" className="skill-icon" />
+                <img src={springboot} alt="skill logo" className="skill-icon" />
               </div>
-              <div className="text-elem">React Native</div>
+              <div className="text-elem">Spring Boot</div>
             </div>
           </a>
           <a href="#/" className="skills-5">
             <div className="skill">
               <div className="img-elem">
-                <img src={react} alt="skill logo" className="skill-icon" />
+                <img src={mongo} alt="skill logo" className="skill-icon" />
               </div>
               <div className="text-elem">MongoDB</div>
             </div>
@@ -128,7 +133,7 @@ const Skills = () => {
           <a href="#/" className="skills-5">
             <div className="skill">
               <div className="img-elem">
-                <img src={react} alt="skill logo" className="skill-icon" />
+                <img src={express} alt="skill logo" className="skill-icon" />
               </div>
               <div className="text-elem">Express</div>
             </div>
@@ -137,7 +142,7 @@ const Skills = () => {
           <a href="#/" className="skills-5">
             <div className="skill">
               <div className="img-elem">
-                <img src={react} alt="skill logo" className="skill-icon" />
+                <img src={nextjs} alt="skill logo" className="skill-icon" />
               </div>
               <div className="text-elem">Next js</div>
             </div>
@@ -145,7 +150,7 @@ const Skills = () => {
           <a href="#/" className="skills-5">
             <div className="skill">
               <div className="img-elem">
-                <img src={react} alt="skill logo" className="skill-icon" />
+                <img src={cpp} alt="skill logo" className="skill-icon" />
               </div>
               <div className="text-elem">C++</div>
             </div>
