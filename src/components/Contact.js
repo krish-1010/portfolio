@@ -1,4 +1,3 @@
-import React from "react";
 import "./Contact.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsLinkedin } from "react-icons/bs";
@@ -25,7 +24,7 @@ const Contact = () => {
             </div>
             <div className="linkedin">
               <a
-                href="https://www.linkedin.com/in/krishna-m-013480203/"
+                href="https://www.linkedin.com/in/mkrishna10/"
                 target="_blank"
                 rel="noreferrer"
               >

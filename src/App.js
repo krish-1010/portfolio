@@ -50,11 +50,11 @@ import BackToTop from "./components/BackToTop";
 import Gallery from "./components/Gallery";
 
 // Import your new pages
-import TermsAndConditions from "./pages/TermsAndConditions";
-import CancellationRefund from "./pages/CancellationRefund";
-import ShippingAndDelivery from "./pages/ShippingAndDelivery";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import ContactUsPage from "./pages/ContactUsPage"; // (if you created a separate "Contact Us" policy page)
+// import TermsAndConditions from "./pages/TermsAndConditions";
+// import CancellationRefund from "./pages/CancellationRefund";
+// import ShippingAndDelivery from "./pages/ShippingAndDelivery";
+// import PrivacyPolicy from "./pages/PrivacyPolicy";
+// import ContactUsPage from "./pages/ContactUsPage"; // (if you created a separate "Contact Us" policy page)
 
 function App() {
   return (
@@ -80,7 +80,7 @@ function App() {
             }
           />
 
-          {/* Policy Pages Routes */}
+          {/* Policy Pages Routes
           <Route
             path="/terms-and-conditions"
             element={<TermsAndConditions />}
@@ -89,6 +89,7 @@ function App() {
           <Route path="/shipping-delivery" element={<ShippingAndDelivery />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/contact-us" element={<ContactUsPage />} />
+         */}
         </Routes>
         <BackToTop />
         <Footer />

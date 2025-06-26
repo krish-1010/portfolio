@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    {
+      "source": "/resume",
+      "destination": "/Krishna_M_Resume-SDE.pdf"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/Krishna_M_Resume-SDE.pdf",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "inline; filename=\"Krishna_M_Resume-SDE.pdf\""
+        }
+      ]
+    }
+  ]
+}

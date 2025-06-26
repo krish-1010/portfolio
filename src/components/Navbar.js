@@ -227,6 +227,25 @@ const Navbar = () => {
             )}
           </li>
 
+          {/* Gallery link */}
+          <li className="nav__item">
+            {location.pathname === "/" ? (
+              <ScrollLink
+                onClick={closeMenu}
+                to="gallery"
+                smooth={true}
+                spy={true}
+                offset={-90}
+              >
+                Gallery
+              </ScrollLink>
+            ) : (
+              <Link to="/" onClick={closeMenu}>
+                Gallery
+              </Link>
+            )}
+          </li>
+
           {/* Contact link */}
           <li className="nav__item">
             {location.pathname === "/" ? (
