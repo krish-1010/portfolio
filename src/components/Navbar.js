@@ -246,6 +246,15 @@ const Navbar = () => {
             )}
           </li>
 
+          <a
+            href="/Krishna_M_Resume-SDE.pdf"
+            download
+            // className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+            className="download-btn"
+          >
+            Download Resume
+          </a>
+
           {/* Example: Terms & Conditions or other policy pages, purely router-based */}
           {/* <li className="nav__item">
             <Link to="/terms-and-conditions" onClick={closeMenu}>

@@ -96,6 +96,25 @@
     cursor: pointer;
   } */
 
+.download-btn {
+  /* Desktop default styles */
+  padding-left: 1.25rem;              /* px-5 */
+  padding-right: 1.25rem;
+  margin-top: 0;                      /* lg:mt-0 */
+  background-color: #9333ea;          /* lg:bg-purple-600 */
+  color: #fff;                        /* text-white */
+  border-radius: 9999px;              /* rounded-full */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #1d4ed8;          /* lg:hover:bg-blue-700 */
+}
 @media screen and (max-width:940px){
     .header{
         max-width: 100%;
@@ -137,4 +156,15 @@
     .logo-text {
         top: 25px;
     }
+
+    .download-btn {
+        margin-top: 1.75rem;              /* mt-7 */
+        background-color: transparent;    /* no bg on mobile */
+    }
+
+    .download-btn:hover{
+        background-color: transparent;
+    }
+   
 }
+
