@@ -328,7 +328,7 @@ const getInitials = (name) => {
 const Reviews = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const timeoutRef = useRef(null);
-  const sliderInterval = 5000;
+  const sliderInterval = 15000;
   const viewportWidth = useViewportWidth();
 
   const itemsVisible = viewportWidth < 768 ? 1 : viewportWidth < 1024 ? 2 : 3;
