@@ -327,6 +327,7 @@ const getInitials = (name) => {
 
 const Reviews = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isPaused, setIsPaused] = useState(false); // State for pause on hover
   const timeoutRef = useRef(null);
   const sliderInterval = 15000;
   const viewportWidth = useViewportWidth();
@@ -341,11 +342,14 @@ const Reviews = () => {
 
   useEffect(() => {
     resetTimeout();
-    timeoutRef.current = setTimeout(() => {
-      setCurrentSlide((prev) => (prev >= maxSlide ? 0 : prev + 1));
-    }, sliderInterval);
+    // Only set the timeout if the slider is not paused
+    if (!isPaused) {
+      timeoutRef.current = setTimeout(() => {
+        setCurrentSlide((prev) => (prev >= maxSlide ? 0 : prev + 1));
+      }, sliderInterval);
+    }
     return () => resetTimeout();
-  }, [currentSlide, maxSlide]);
+  }, [currentSlide, maxSlide, isPaused]); // Add isPaused to dependency array
 
   const navigateSlide = (direction) => {
     let nextSlide;
@@ -370,7 +374,11 @@ const Reviews = () => {
         <div className="reviews-wrapper">
           <h2 className="reviews-title">WHAT PEOPLE SAY</h2>
 
-          <div className="reviews-slider-outer">
+          <div
+            className="reviews-slider-outer"
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+          >
             <button
               onClick={() => navigateSlide("prev")}
               className="reviews-slider-arrow reviews-slider-arrow-left"

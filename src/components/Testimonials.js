@@ -17,7 +17,7 @@ const Testimonials = () => {
     autoplay: true,
     autoplaySpeed: 4500,
     arrows: false,
-    pauseOnHover: false,
+    pauseOnHover: true,
   };
   return (
     <div className="Testimonials">
