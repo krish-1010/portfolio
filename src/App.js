@@ -23,7 +23,7 @@ function App() {
           duration: 800,
           delay: 0,
           smooth: "easeInOutQuart",
-          offset: -92, // adjust based on your fixed navbar height
+          offset: -90, // adjust based on your fixed navbar height
         });
       }, 100); // short delay ensures DOM is ready
     }
