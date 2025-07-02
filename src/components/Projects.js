@@ -156,8 +156,8 @@ const Projects = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    adaptiveHeight: true,
-    autoplay: false,
+    adaptiveHeight: false,
+    autoplay: true,
     autoplaySpeed: 3500,
     pauseOnHover: true,
   };
