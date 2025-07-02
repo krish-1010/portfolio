@@ -55,6 +55,7 @@ const projects = [
     more: "Built with PyQt5 and matplotlib for GUI and plotting. Displays linear equation for educational use.",
     link: "https://github.com/krish-1010/NumericalMethods",
   },
+
   {
     title: "ReviseIt - Bitwise Audio Revision App",
     spanClass: "lightpurple b",
@@ -110,6 +111,27 @@ const projects = [
     desc: "Full-stack AI-powered chat widget for Loyola College, providing real-time answers to student and visitor queries.",
     more: "Next.js 15, TS, Tailwind, Langflow (OpenAI backend), file-based chat logging.",
     link: "https://github.com/krish-1010/chatsupport",
+  },
+  {
+    title: "Sharanya Spots Talent",
+    spanClass: "lightpurple wh",
+    desc: "A Business website with real-time slot booking features, payment integration.",
+    more: "Built with Wix Studio and velo code by wix.",
+    link: "https://www.sharanyaspotstalent.com/",
+  },
+  {
+    title: "Space Kidz India",
+    spanClass: "lightpurple",
+    desc: "Business website showcasing the features of Spacekidzindia - a nano satellites production company.",
+    more: "Built with Wix Studio and velo code by wix.",
+    link: "https://www.spacekidzindia.in",
+  },
+  {
+    title: "YSI Challenge",
+    spanClass: "lightpurple wh",
+    desc: "A International Science competition with registration flow and personal dashboard for each member and admins.",
+    more: "Built with Wix Studio and velo code by wix.",
+    link: "https://ysichallenge.com",
   },
 ];
 
