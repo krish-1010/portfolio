@@ -55,8 +55,24 @@ import Gallery from "./components/Gallery";
 // import ShippingAndDelivery from "./pages/ShippingAndDelivery";
 // import PrivacyPolicy from "./pages/PrivacyPolicy";
 // import ContactUsPage from "./pages/ContactUsPage"; // (if you created a separate "Contact Us" policy page)
-
+import { useEffect } from "react";
+import { scroller } from "react-scroll";
 function App() {
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const id = hash.replace("#", "");
+      // Delay scroll to wait for components to mount
+      setTimeout(() => {
+        scroller.scrollTo(id, {
+          duration: 800,
+          delay: 0,
+          smooth: "easeInOutQuart",
+          offset: -92, // adjust based on your fixed navbar height
+        });
+      }, 100); // short delay ensures DOM is ready
+    }
+  }, []);
   return (
     <Router>
       <div className="App">
