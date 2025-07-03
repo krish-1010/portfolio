@@ -237,22 +237,22 @@ const LinkedInIcon = () => (
 
 const reviewsData = [
   {
-    name: "Saipriya s",
-    organization: "Meenakshi College for women",
-    title: "Student",
-    quote:
-      'I attended the "python" class and I found it incredibly helpful. The instructor explained the concepts clearly and I especially appreciated the practical exercises after each session. The pace of the course was well-balanced and the real-world examples made it easier to understand how to apply the concepts.',
-    avatar: "",
-    linkedin: "",
-  },
-  {
     name: "Sharanya Subramaniam",
-    title: "Ceo & Casting Director ",
+    title: "CEO & Casting Director ",
     organization: "Sharanya Spots Talent - Casting Company",
     quote:
       "Working with Krishna has been such a smooth and reassuring experience. He just gets what we're trying to say - and even better he brings it to life exactly how we imagine it. From our website to forms to behind-the-scenes tech fixes he's been a huge support. What we love most? His patience his curiosity and the fact that he's always one step ahead.",
     avatar: "",
     linkedin: "https://www.linkedin.com/in/sharanya-subramaniam-a63591253",
+  },
+  {
+    name: "Praveen Thirumurugan",
+    title: "Associate product Manager",
+    organization: "Oracle",
+    quote:
+      "Krishna has been the most reliable tech partner I've had across all my projects: from chatbots to complex product builds. He's equally strong in both frontend and backend which makes execution smoother and faster. No matter how tough the idea he finds a way to make it work. If I had to trust anyone with everything technical it would be him without second thought. On time trustworthy and all-in—all you'd want in a teammate.",
+    avatar: "",
+    linkedin: "https://www.linkedin.com/in/praveenthirumurugan/",
   },
   {
     name: "Roshan SK",
@@ -265,16 +265,7 @@ const reviewsData = [
     linkedin: "https://www.linkedin.com/in/skroshan",
   },
   {
-    name: "Praveen Thirumurugan",
-    title: "Associate product Manager",
-    organization: "Oracle",
-    quote:
-      "Krishna has been the most reliable tech partner I've had across all my projects: from chatbots to complex product builds. He's equally strong in both frontend and backend which makes execution smoother and faster. No matter how tough the idea he finds a way to make it work. If I had to trust anyone with everything technical it would be him without second thought. On time trustworthy and all-in—all you'd want in a teammate.",
-    avatar: "",
-    linkedin: "https://www.linkedin.com/in/praveenthirumurugan/",
-  },
-  {
-    name: "Surya jayaseelan",
+    name: "Surya Jayaseelan",
     title: "MSC student business analytics",
     organization: "Aston University",
     quote:
@@ -300,6 +291,15 @@ const reviewsData = [
       "Big thanks to you for being the best mentor and friend I could ask for. From clearing my doubts in Java and Angular to prepping me for interviews your guidance made a huge difference. I genuinely couldn't have cracked this job without your support. Forever grateful!",
     avatar: "",
     linkedin: "https://www.linkedin.com/in/kanimozhi-sampath-7655201a5",
+  },
+  {
+    name: "Saipriya S",
+    organization: "Meenakshi College for women",
+    title: "Student",
+    quote:
+      'I attended the "python" class and I found it incredibly helpful. The instructor explained the concepts clearly and I especially appreciated the practical exercises after each session. The pace of the course was well-balanced and the real-world examples made it easier to understand how to apply the concepts.',
+    avatar: "",
+    linkedin: "",
   },
 ];
 
