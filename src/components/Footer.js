@@ -41,7 +41,7 @@ const Footer = () => {
             </i>
           </a>
         </div>
-        <nav>
+        <nav className="footer-nav">
           {/* Other nav items */}
           <ul>
             <li>
