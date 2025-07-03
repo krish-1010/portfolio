@@ -41,9 +41,9 @@ const Footer = () => {
             </i>
           </a>
         </div>
-        <nav className="footer-nav">
-          {/* Other nav items */}
-          <ul>
+        {/* <nav className="footer-nav"> */}
+        {/* Other nav items */}
+        {/* <ul>
             <li>
               <Link to="/terms-and-conditions">Terms & Conditions</Link>
             </li>
@@ -59,13 +59,13 @@ const Footer = () => {
             <li>
               <Link to="/contact-us">Contact Us</Link>
             </li>
-          </ul>
-          {/* <Link to="/terms-and-conditions">Terms & Conditions</Link>
+          </ul> */}
+        {/* <Link to="/terms-and-conditions">Terms & Conditions</Link>
           <Link to="/cancellation-refund">Cancellation & Refund</Link>
           <Link to="/shipping-delivery">Shipping & Delivery</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
           <Link to="/contact-us">Contact Us</Link> */}
-        </nav>
+        {/* </nav> */}
       </div>
     </div>
   );
