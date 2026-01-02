@@ -19,8 +19,9 @@ import { scroller } from "react-scroll";
 import Reviews from "./components/Reviews";
 import Links from "./components/Links";
 import ReactGA from "react-ga4";
+import { Helmet } from "react-helmet-async";
 
-const TRACKING_ID = process.env.REACT_APP_GA_ID;
+const TRACKING_ID = import.meta.env.VITE_GA_ID;
 
 if (TRACKING_ID && window.location.hostname !== "localhost") {
   ReactGA.initialize(TRACKING_ID);
@@ -66,6 +67,29 @@ function App() {
             path="/"
             element={
               <>
+                <Helmet>
+                  <title>Krishna | Software Engineer</title>
+                  <meta
+                    name="description"
+                    content="Portfolio of Krishna, a Junior Software Engineer specializing in React, Next.js, and interactive web simulations."
+                  />
+                  {/* Social Media Previews (Open Graph) */}
+                  <meta
+                    property="og:title"
+                    content="Krishna | Software Engineer"
+                  />
+                  <meta
+                    property="og:description"
+                    content="Explore my projects, skills, and developer portfolio."
+                  />
+                  <meta
+                    property="og:image"
+                    content="https://mkrishna.dev/my-logo.png"
+                  />
+                  <meta property="og:url" content="https://mkrishna.dev/" />
+                  <meta property="og:type" content="website" />
+                </Helmet>
+
                 <Navbar />
                 <Hero />
                 <About />

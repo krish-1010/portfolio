@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { HiGlobeAlt } from "react-icons/hi";
 import profileImg from "./imgs/krish.png";
+import { Helmet } from "react-helmet-async";
 
 const size = 40;
 
@@ -55,6 +56,17 @@ const Links = () => {
 
   return (
     <div className="links-container">
+      <Helmet>
+        <title>Krishna | Links</title>
+        <meta name="description" content="All my social links, portfolio, and contact info in one place." />
+        <link rel="canonical" href="https://mkrishna.dev/links" />
+
+        {/* Social Media Preview */}
+        <meta property="og:title" content="Connect with Krishna" />
+        <meta property="og:description" content="Developer, Mentor, Gamer. Click to connect." />
+        <meta property="og:image" content="https://mkrishna.dev/my-logo.png" />
+        <meta property="og:url" content="https://mkrishna.dev/links" />
+      </Helmet>
       <div className="profile-section">
         <div className="image-wrapper">
           <img src={profileImg} alt="Krishna" />
