@@ -17,7 +17,7 @@ function PrivacyPolicy() {
         <strong>Effective Date:</strong> December 31, 2024
       </p>
       <p>
-        At <strong>mkrishna.tech</strong>, we are committed to respecting and
+        At <strong>mkrishna.dev</strong>, we are committed to respecting and
         protecting your privacy. This Privacy Policy explains how we handle your
         personal information in compliance with{" "}
         <strong>Indian data protection laws</strong>.
@@ -95,14 +95,14 @@ function PrivacyPolicy() {
       <ul>
         <li>
           <strong>Email:</strong>{" "}
-          <a href="mailto:krishna@mkrishna.tech">krishna@mkrishna.tech</a>
+          <a href="mailto:krishna@mkrishna.dev">krishna@mkrishna.dev</a>
         </li>
         <li>
           <strong>Address:</strong> We operate entirely online as a remote-based
           service provider and do not maintain a fixed physical office location.
           For any official correspondence or legal notices, please contact us
           via email at{" "}
-          <a href="mailto:krishna@mkrishna.tech">krishna@mkrishna.tech</a>. If a
+          <a href="mailto:krishna@mkrishna.dev">krishna@mkrishna.dev</a>. If a
           physical address is required for specific legal or regulatory reasons,
           please reach out to us at the same email address, and we will provide
           the appropriate mailing address as necessary.

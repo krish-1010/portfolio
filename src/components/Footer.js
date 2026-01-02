@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <h3>KRISHNA</h3>
         <p>Connect with me</p>
-        
+
         <div className="my-links">
           {/* LinkedIn */}
           <a
@@ -35,7 +35,7 @@ const Footer = () => {
 
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/mkrishna.tech"
+            href="https://www.instagram.com/mkrishna.dev"
             target="_blank"
             rel="noreferrer"
             className="icon-bg"
@@ -49,7 +49,7 @@ const Footer = () => {
             <FaLink className="my-icon" />
           </Link>
         </div>
-        
+
         <div className="footer-copyright">
           <p>© {new Date().getFullYear()} Krishna M. All rights reserved.</p>
         </div>

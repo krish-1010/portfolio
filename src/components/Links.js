@@ -19,7 +19,7 @@ const Links = () => {
     {
       name: "Instagram",
       icon: <FaInstagram size={size} color="#E1306C" />,
-      url: "https://instagram.com/mkrishna.tech",
+      url: "https://instagram.com/mkrishna.dev",
     },
     {
       name: "LinkedIn",

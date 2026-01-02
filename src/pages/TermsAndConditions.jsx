@@ -18,7 +18,7 @@ function TermsAndConditions() {
         <strong>Effective Date:</strong> December 31, 2024
       </p>
       <p>
-        Welcome to <strong>mkrishna.tech</strong> (“Website,” “we,” “us,” or
+        Welcome to <strong>mkrishna.dev</strong> (“Website,” “we,” “us,” or
         “our”). By accessing or using this Website, you agree to be bound by the
         following terms and conditions (“Terms”). If you do not agree with any
         part of these Terms, please discontinue use of our Website.
@@ -51,16 +51,15 @@ function TermsAndConditions() {
         For any questions regarding these Terms, please contact us at:
         <br />
         <strong>Email:</strong>
-        <a href="mailto:krishna@mkrishna.tech">krishna@mkrishna.tech</a>
+        <a href="mailto:krishna@mkrishna.dev">krishna@mkrishna.dev</a>
         <br />
         <strong>Address:</strong> We operate entirely online as a remote-based
         service provider and do not maintain a fixed physical office location.
         For any official correspondence or legal notices, please contact us via
-        email at{" "}
-        <a href="mailto:krishna@mkrishna.tech">krishna@mkrishna.tech</a>. If a
-        physical address is required for specific legal or regulatory reasons,
-        please reach out to us at the same email address, and we will provide
-        the appropriate mailing address as necessary.
+        email at <a href="mailto:krishna@mkrishna.dev">krishna@mkrishna.dev</a>.
+        If a physical address is required for specific legal or regulatory
+        reasons, please reach out to us at the same email address, and we will
+        provide the appropriate mailing address as necessary.
       </p>
 
       <h2>4. Rules of Conduct and User Restrictions</h2>
@@ -98,8 +97,8 @@ function TermsAndConditions() {
       <h2>6. Intellectual Property</h2>
       <p>
         Unless otherwise stated, all original content on this Website (e.g.,
-        text, custom graphics, and branding) is the property of mkrishna.tech
-        and is protected by applicable intellectual property laws. We use
+        text, custom graphics, and branding) is the property of mkrishna.dev and
+        is protected by applicable intellectual property laws. We use
         third-party frameworks, libraries (e.g., React, React Icons), and other
         open-source tools under their respective licenses. We do not claim
         ownership over such third-party content or open-source libraries. You
