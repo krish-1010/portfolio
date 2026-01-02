@@ -20,8 +20,11 @@ import Reviews from "./components/Reviews";
 import Links from "./components/Links";
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-XXXXXXXXXX"); // Replace with your GA4 Measurement ID
+const TRACKING_ID = process.env.REACT_APP_GA_ID;
 
+if (TRACKING_ID && window.location.hostname !== "localhost") {
+  ReactGA.initialize(TRACKING_ID);
+}
 // Helper component to track page views
 const PageTracker = () => {
   const location = useLocation();
