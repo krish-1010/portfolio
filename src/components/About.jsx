@@ -31,8 +31,9 @@ const About = () => {
                 fill="#b161e7"
                 size="1.2em"
               />
-              <b>Technical Leader</b> - Frequently taking up roles such as
-              Technical Head, driving impactful projects and mentoring others.
+              <b>Technical Presenter</b> - Delivering engaging sessions on
+              topics ranging from Web Development to Space Science at community
+              events.
             </li>
             <li>
               <BsCheck2All
