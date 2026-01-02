@@ -31,7 +31,6 @@ const PageTracker = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Send pageview to Google whenever the path changes
     ReactGA.send({
       hitType: "pageview",
       page: location.pathname + location.search + location.hash,
