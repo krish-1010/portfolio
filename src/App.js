@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -13,6 +18,25 @@ import { useEffect } from "react";
 import { scroller } from "react-scroll";
 import Reviews from "./components/Reviews";
 import Links from "./components/Links";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-XXXXXXXXXX"); // Replace with your GA4 Measurement ID
+
+// Helper component to track page views
+const PageTracker = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Send pageview to Google whenever the path changes
+    ReactGA.send({
+      hitType: "pageview",
+      page: location.pathname + location.hash,
+    });
+  }, [location]);
+
+  return null;
+};
+
 function App() {
   useEffect(() => {
     const hash = window.location.hash;
@@ -31,6 +55,7 @@ function App() {
   }, []);
   return (
     <Router>
+      <PageTracker />
       <div className="App">
         <Routes>
           <Route path="/links" element={<Links />} />
