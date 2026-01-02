@@ -1,9 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import { FaSteam } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-// import { Link } from "react-router-dom";
+import { FaSteam, FaInstagram, FaLinkedinIn, FaLink } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,61 +9,50 @@ const Footer = () => {
       <div className="container">
         <h3>KRISHNA</h3>
         <p>Connect with me</p>
+        
         <div className="my-links">
+          {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/krishna-m10/"
+            href="https://www.linkedin.com/in/mkrishna10/"
             target="_blank"
             rel="noreferrer"
+            className="icon-bg"
+            aria-label="LinkedIn"
           >
-            <i className="icon-bg">
-              <FaLinkedinIn className="my-icon" />
-            </i>
+            <FaLinkedinIn className="my-icon" />
           </a>
+
+          {/* Steam */}
           <a
             href="https://steamcommunity.com/id/krishna10"
             target="_blank"
             rel="noreferrer"
             className="icon-bg"
+            aria-label="Steam"
           >
-            <i>
-              <FaSteam className="my-icon" />
-            </i>
+            <FaSteam className="my-icon" />
           </a>
+
+          {/* Instagram */}
           <a
-            href="https://www.instagram.com/_.krypt1c._/?theme=dark"
+            href="https://www.instagram.com/mkrishna.tech"
             target="_blank"
             rel="noreferrer"
+            className="icon-bg"
+            aria-label="Instagram"
           >
-            <i className="icon-bg">
-              <FaInstagram className="my-icon" />
-            </i>
+            <FaInstagram className="my-icon" />
           </a>
+
+          {/* New Internal Link to Bio/Links Page */}
+          <Link to="/links" className="icon-bg" aria-label="Link Tree">
+            <FaLink className="my-icon" />
+          </Link>
         </div>
-        {/* <nav className="footer-nav"> */}
-        {/* Other nav items */}
-        {/* <ul>
-            <li>
-              <Link to="/terms-and-conditions">Terms & Conditions</Link>
-            </li>
-            <li>
-              <Link to="/cancellation-refund">Cancellation & Refund</Link>
-            </li>
-            <li>
-              <Link to="/shipping-delivery">Shipping & Delivery</Link>
-            </li>
-            <li>
-              <Link to="/privacy-policy">Privacy Policy</Link>
-            </li>
-            <li>
-              <Link to="/contact-us">Contact Us</Link>
-            </li>
-          </ul> */}
-        {/* <Link to="/terms-and-conditions">Terms & Conditions</Link>
-          <Link to="/cancellation-refund">Cancellation & Refund</Link>
-          <Link to="/shipping-delivery">Shipping & Delivery</Link>
-          <Link to="/privacy-policy">Privacy Policy</Link>
-          <Link to="/contact-us">Contact Us</Link> */}
-        {/* </nav> */}
+        
+        <div className="footer-copyright">
+          <p>© {new Date().getFullYear()} Krishna M. All rights reserved.</p>
+        </div>
       </div>
     </div>
   );

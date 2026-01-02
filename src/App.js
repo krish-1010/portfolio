@@ -12,6 +12,7 @@ import Gallery from "./components/Gallery";
 import { useEffect } from "react";
 import { scroller } from "react-scroll";
 import Reviews from "./components/Reviews";
+import Links from "./components/Links";
 function App() {
   useEffect(() => {
     const hash = window.location.hash;
@@ -31,15 +32,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* Navbar will be seen on every route */}
-        <Navbar />
-
         <Routes>
-          {/* Root/Home Route: contains your existing main-page components */}
+          <Route path="/links" element={<Links />} />
           <Route
             path="/"
             element={
               <>
+                <Navbar />
                 <Hero />
                 <About />
                 <Skill />
@@ -48,12 +47,12 @@ function App() {
                 <Gallery />
                 <Reviews />
                 <Contact />
+                <BackToTop />
+                <Footer />
               </>
             }
           />
         </Routes>
-        <BackToTop />
-        <Footer />
       </div>
     </Router>
   );
