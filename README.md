@@ -14,12 +14,12 @@ It includes a dedicated **"Link in Bio"** page (`/links`), eliminating the need 
 
 ##  Features
 
-* **⚡ Blazing Fast:** Migrated from Create-React-App to **Vite** for instant server starts and optimized builds.
-* **🎨 Responsive Design:** Custom CSS with a dark, space-themed aesthetic.
-* **🔗 Integrated Link Tree:** A standalone `/links` route optimized for mobile social bios (Instagram/LinkedIn).
-* **📈 Analytics:** Integrated **Google Analytics 4** (via `react-ga4`) with environment variable protection.
-* **🔍 SEO Optimized:** Dynamic meta tags and Open Graph previews using `react-helmet-async`.
-* **🖱️ Smooth Navigation:** Single-page scroll navigation with active state detection.
+* ** Blazing Fast:** Migrated from Create-React-App to **Vite** for instant server starts and optimized builds.
+* ** Responsive Design:** Custom CSS with a dark, space-themed aesthetic.
+* ** Integrated Link Tree:** A standalone `/links` route optimized for mobile social bios (Instagram/LinkedIn).
+* ** Analytics:** Integrated **Google Analytics 4** (via `react-ga4`) with environment variable protection.
+* ** SEO Optimized:** Dynamic meta tags and Open Graph previews using `react-helmet-async`.
+* ** Smooth Navigation:** Single-page scroll navigation with active state detection.
 
 ---
 
