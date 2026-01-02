@@ -1,4 +1,4 @@
-# 🚀 Krishna M | Personal Portfolio
+#  Krishna M | Personal Portfolio
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -12,7 +12,7 @@ It includes a dedicated **"Link in Bio"** page (`/links`), eliminating the need 
 
 ---
 
-## ✨ Features
+##  Features
 
 * **⚡ Blazing Fast:** Migrated from Create-React-App to **Vite** for instant server starts and optimized builds.
 * **🎨 Responsive Design:** Custom CSS with a dark, space-themed aesthetic.
@@ -23,7 +23,7 @@ It includes a dedicated **"Link in Bio"** page (`/links`), eliminating the need 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** [React](https://reactjs.org/)
 * **Build Tool:** [Vite](https://vitejs.dev/)
@@ -35,7 +35,7 @@ It includes a dedicated **"Link in Bio"** page (`/links`), eliminating the need 
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these steps to run the project locally on your machine.
 
@@ -70,7 +70,7 @@ Follow these steps to run the project locally on your machine.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 src/
@@ -81,7 +81,7 @@ src/
 └── index.css        # Global styles and variables
 ```
 
-## 📬 Connect with Me
+##  Connect with Me
 
 * **LinkedIn:** [Krishna M](https://www.linkedin.com/in/mkrishna10/)
 * **Hashnode:** [blog.mkrishna.dev](https://blog.mkrishna.dev)
