@@ -21,7 +21,7 @@ const About = () => {
                 fill="#b161e7"
                 size="1.2em"
               />
-              <b>Software Developer</b> - Java and Next.js developer with
+              <b>Software Engineer</b> - Java and Next.js developer with
               expertise in web development and a strong foundation in computer
               applications.
             </li>

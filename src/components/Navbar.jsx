@@ -191,14 +191,14 @@ const Navbar = () => {
           </li>
 
           {/* Resume Button (Renamed to be smaller) */}
-          <a
+          {/* <a
             href="/Krishna_M_Resume-SDE.pdf"
             download
             className="download-btn"
             onClick={closeMenu}
           >
             Resume
-          </a>
+          </a> */}
         </ul>
       </nav>
     </div>
