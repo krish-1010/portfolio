@@ -41,8 +41,8 @@ const About = () => {
                 fill="#b161e7"
                 size="1.2em"
               />
-              <b>Freelance Educator</b> - Actively involved in educational
-              discussions, inspiring learners in programming and technology.
+              <b>STEM Mentor</b> - Actively guiding students, bridging the gap
+              between real world and tech, and inspiring curious minds.
             </li>
           </ul>
         </div>
