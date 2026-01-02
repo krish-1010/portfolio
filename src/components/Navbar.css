@@ -98,8 +98,8 @@
 
 .download-btn {
   /* Desktop default styles */
-  padding-left: 1.25rem;              /* px-5 */
-  padding-right: 1.25rem;
+  padding-left: 1rem;              /* px-5 */
+  padding-right: 1rem;
   margin-top: 0;                      /* lg:mt-0 */
   background-color: #9333ea;          /* lg:bg-purple-600 */
   color: #fff;                        /* text-white */
